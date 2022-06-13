@@ -1,0 +1,30 @@
+body    {
+
+}
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    max-height: 100px;
+}
+.flexbox-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 3px solid red;
+    margin: 5px;
+}
+
+.flexbox-item-1 {
+}
+.flexbox-item-2 {
+}
+
+li {
+    list-style: none;
+}
+
+.li-navbar {
+    margin: 10px;
+}
