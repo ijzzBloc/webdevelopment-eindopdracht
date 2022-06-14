@@ -1,19 +1,22 @@
-body    {
 
+body    {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
 }
+/********************* Header *********************/
+
 .flexbox-container {
     display: flex;
-    justify-content: space-around;
     background-color: green;
-    max-height: 100px;
 }
 .flexbox-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
     border: 3px solid red;
-    margin: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .flexbox-item-1 {
@@ -27,4 +30,32 @@ li {
 
 .li-navbar {
     margin: 10px;
+}
+
+/********************* main *********************/
+
+#main-container   {
+    display: flex;
+    background: url("/assets/images/hero-image.jpg") no-repeat center / cover;
+    color: whitesmoke;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-item {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1rem;
+}
+.hero-text  {
+    font-size: 5rem;
+}
+.btn   {
+}
+#hero-btn   {
+    width: 400px;
+    height: 200px;
 }
