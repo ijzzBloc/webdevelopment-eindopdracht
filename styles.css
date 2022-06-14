@@ -3,13 +3,13 @@ body    {
     margin: 0rem;
 }
 /********************* Header *********************/
-.flexbox-container  {
+.header-container  {
     display: flex;
     border: 3px solid red;
     background-color: green;
     justify-content: space-between;
 }
-.flexbox-item   {
+.header-item   {
     border: 3px solid red;
     background-color: green;
     display: flex;
@@ -17,11 +17,14 @@ body    {
     align-items: center;
     margin-left: 20%;
     margin-right: 20%;
+    width: 20rem;
 }
-.flexbox-item-1 {
+.header-item-1 {
+    justify-content: flex-start;
+    min-width: 20vh;
 }
-.flexbox-item-2 {
-
+.header-item-2 {
+    justify-content: flex-end;
 }
 li {
     list-style: none;
@@ -38,16 +41,15 @@ li {
     color: whitesmoke;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
+    line-height: 1rem;
 }
 .hero-item {
-    display: block;
+    display: flex;
     border: 3px solid red;
     flex-direction: column;
-    align-items: center;
     margin-left: 20%;
     margin-right: 20%;
-    line-height: 0.5rem;
 }
 .hero-text  {
     font-size: 4rem;
