@@ -60,3 +60,56 @@ li {
     width: 5rem;
     height: 5rem;
 }
+.carousel-container {
+    border: 3px solid red;
+    background-color: red;
+    display: flex;
+    height: 20px;
+}
+.searchbar-container    {
+    border: 3px solid red;
+    background-color: green;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    gap: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.search {
+    height: 25%;
+    width: 15rem;
+}
+.dropdown   {
+    display: inline-flex;
+    height: 25%;
+}
+
+.dropdown-selection {
+    width: 10rem;
+    padding-left: 1rem;
+}
+
+.searchresults  {
+    display: flex;
+    background-color: blue;
+    border: 3px solid red;
+    height: 25rem;
+
+}
+.footer-container   {
+    border: 3px solid red;
+    display: flex;
+    height: 15rem;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.footer-item    {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+}
